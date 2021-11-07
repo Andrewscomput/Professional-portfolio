@@ -1,0 +1,141 @@
+header {
+    padding: 50px;
+    background-color: black;
+}
+
+
+header h1 {
+    color: white;
+    display: inline-block;
+    border-bottom: 40px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+header div{
+    float: right;
+}
+
+header nav ul li {
+    display: inline-table;
+    font-size: 25px;
+    padding: 0px 30px ;
+}
+
+header nav ul li a {
+    color: white;
+     margin: 0x 12px 0px 0px;
+    
+}
+
+
+.about{
+   padding: 20px 5px;
+   background-color: black;
+   display: inline-table;
+}
+
+.about h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-right: 40px;
+}
+
+.about p {
+  color: white;
+  text-align: center; 
+  line-height: 25px;
+}
+
+.projects {
+background-color: black;
+
+}
+
+.projects h2 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.buddy {
+    padding: 0px 0px 20px 125px;
+    position: relative;
+    margin: auto;
+
+}
+
+.buddy img {
+    border: 8px solid rgb(33, 30, 210);
+    box-shadow: 0 0 5px;
+}
+
+.text {
+    font-size: 30px;
+    position:absolute;
+     transform: translate(-50%,-50%) ;
+     margin-left: 100px ;
+     padding: 0px 100px 150px 280px;
+    
+}
+
+.text p {
+    color: white;
+    line-height: 5px;
+}
+
+.column p {
+    font-size: 20px;
+}
+
+.projects {
+  
+   background-color: black;
+   padding: 5px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    padding-left: 30px;
+  }
+.column img {
+    border: 8px solid rgb(33, 30, 210);
+}
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.column p {
+    line-height: 5px;
+}
+
+
+
+.footer {
+    padding: 50px 50px;
+
+} 
+
+
+.footer div{
+    padding: 0px 5px;
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin:  60px 150px 40px 0px;
+    text-decoration: underline;
+}
+
+
+.footer a {
+    color: white;
+}
